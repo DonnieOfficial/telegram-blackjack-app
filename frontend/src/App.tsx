@@ -1,7 +1,9 @@
+import BlackjackGame from "./components/BlackjackGame";
+
 const App = () => {
     return (
-        <div>
-            
+        <div className="size-full">
+            <BlackjackGame />
         </div>
     );
 };
